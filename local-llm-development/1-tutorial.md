@@ -1,4 +1,3 @@
-````markdown
 # 🧠 Local AI Agent Workshop — Windows 11 Setup Guide
 
 > **Run and customize your own AI agent locally** using Ollama, Python, Docker, and Open WebUI — with live web search and RAG (Retrieval-Augmented Generation) integration.
