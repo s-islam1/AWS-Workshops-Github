@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "cognito-idp:DescribeResourceServer",
+                "cognito-idp:CreateResourceServer",
+                "cognito-idp:AdminSetUserPassword",
+                "cognito-idp:CreateUserPool",
+                "cognito-idp:CreateUserPoolClient",
+                "cognito-idp:AdminCreateUser",
+                "cognito-idp:CreateUserPoolDomain",
+                "cognito-idp:DeleteUserPool",
+                "cognito-idp:AdminDeleteUser",
+                "cognito-idp:ListUserPoolClient",
+                "cognito-idp:UpdateUserPoolClient",
+                "cognito-idp:DeleteUserPoolClient"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

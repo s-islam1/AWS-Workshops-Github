@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "bedrock-agentcore:CreateApiKeyCredentialProvider",
+                "bedrock-agentcore:DeleteApiKeyCredentialProvider",
+                "bedrock-agentcore:GetApiKeyCredentialProvider",
+                "bedrock-agentcore:ListApiKeyCredentialProviders",
+                "bedrock-agentcore:UpdateApiKeyCredentialProvider",
+                "bedrock-agentcore:CreateOAuth2CredentialProvider",
+                "bedrock-agentcore:DeleteOAuth2CredentialProvider",
+                "bedrock-agentcore:GetOAuth2CredentialProvider",
+                "bedrock-agentcore:ListOAuth2CredentialProviders",
+                "bedrock-agentcore:UpdateOAuth2CredentialProvider",
+                "bedrock-agentcore:CreateTokenVault",
+                "bedrock-agentcore:GetTokenVault",
+                "bedrock-agentcore:SetTokenVaultCmk",
+                "bedrock-agentcore:GetResourceApiKey"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

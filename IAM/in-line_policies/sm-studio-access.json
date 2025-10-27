@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "sagemaker:UpdateSpace",
+                "sagemaker:DeleteSpace",
+                "sagemaker:DeleteApp",
+                "sagemaker:CreatePresignedNotebookInstanceUrl",
+                "sagemaker:UpdateAppImageConfig",
+                "sagemaker:CreateSpace",
+                "sagemaker:CreateStudioLifecycleConfig",
+                "sagemaker:DeleteStudioLifecycleConfig",
+                "sagemaker:CreatePresignedDomainUrl",
+                "sagemaker:DeleteAppImageConfig",
+                "sagemaker:CreateApp",
+                "sagemaker:AddTags"
+            ],
+            "Resource": "arn:aws:sagemaker:*:*:*",
+            "Effect": "Allow"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "cloudformation:CreateChangeSet",
+                "cloudformation:ExecuteChangeSet",
+                "cloudformation:DeleteChangeSet",
+                "cloudformation:DeleteStack",
+                "cloudformation:ListStacks",
+                "cloudformation:UpdateStack",
+                "cloudformation:CreateStack"
+            ],
+            "Resource": "arn:aws:cloudformation:*:*:stack/*",
+            "Effect": "Allow"
+        }
+    ]
+}

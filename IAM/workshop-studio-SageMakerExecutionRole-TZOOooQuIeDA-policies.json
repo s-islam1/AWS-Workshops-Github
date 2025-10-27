@@ -1,0 +1,44 @@
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "AWSCloudFormationReadOnlyAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess"
+        },
+        {
+            "PolicyName": "AmazonSageMakerReadOnly",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonSageMakerReadOnly"
+        },
+        {
+            "PolicyName": "AmazonS3ReadOnlyAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
+        },
+        {
+            "PolicyName": "AmazonSageMakerFullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonSageMakerFullAccess"
+        },
+        {
+            "PolicyName": "AmazonS3FullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+        },
+        {
+            "PolicyName": "AmazonQDeveloperAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonQDeveloperAccess"
+        },
+        {
+            "PolicyName": "AmazonBedrockReadOnly",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonBedrockReadOnly"
+        },
+        {
+            "PolicyName": "AmazonBedrockFullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonBedrockFullAccess"
+        },
+        {
+            "PolicyName": "AmazonBedrockLimitedAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess"
+        },
+        {
+            "PolicyName": "AmazonOpenSearchServiceFullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonOpenSearchServiceFullAccess"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "workshop-studio-SageMakerExecutionRole-TZOOooQuIeDA",
+        "RoleId": "AROASEMMBAWK26KTLIDRZ",
+        "Arn": "arn:aws:iam::146859427221:role/workshop-studio-SageMakerExecutionRole-TZOOooQuIeDA",
+        "CreateDate": "2025-10-23T14:35:45+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "sagemaker.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                },
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "bedrock.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                },
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "bedrock-agentcore.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "aws:SourceAccount": "146859427221"
+                        },
+                        "ArnLike": {
+                            "aws:SourceArn": "arn:aws:bedrock-agentcore:*:146859427221:*"
+                        }
+                    }
+                }
+            ]
+        },
+        "Description": "",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2025-10-27T03:37:13+00:00",
+            "Region": "us-west-2"
+        }
+    }
+}

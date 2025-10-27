@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "codebuild:CreateProject",
+                "codebuild:StartBuild",
+                "codebuild:UpdateProject",
+                "codebuild:BatchGetBuilds"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

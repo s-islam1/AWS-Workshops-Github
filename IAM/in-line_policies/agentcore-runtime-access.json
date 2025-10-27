@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "bedrock-agentcore:CreateAgentRuntime",
+                "bedrock-agentcore:UpdateAgentRuntime",
+                "bedrock-agentcore:GetAgentRuntime",
+                "bedrock-agentcore:ListAgentRuntimes",
+                "bedrock-agentcore:CreateAgentRuntimeEndpoint",
+                "bedrock-agentcore:UpdateAgentRuntimeEndpoint",
+                "bedrock-agentcore:GetAgentRuntimeEndpoint",
+                "bedrock-agentcore:ListAgentRuntimeEndpoints",
+                "bedrock-agentcore:ListAgentRuntimeVersions",
+                "bedrock-agentcore:CreateWorkloadIdentity",
+                "bedrock-agentcore:UploadWorkloadIdentity",
+                "bedrock-agentcore:GetWorkloadIdentity",
+                "bedrock-agentcore:ListWorkloadIdentities",
+                "bedrock-agentcore:InvokeAgentRuntime",
+                "bedrock-agentcore:DeleteAgentRuntime",
+                "bedrock-agentcore:DeleteAgentRuntimeEndpoint"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

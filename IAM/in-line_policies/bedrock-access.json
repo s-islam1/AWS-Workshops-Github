@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "bedrock:TagResource",
+                "bedrock:UntagResource",
+                "bedrock:InvokeModel",
+                "bedrock:InvokeModelWithResponseStream",
+                "bedrock:StartIngestionJob",
+                "bedrock:Retrieve"
+            ],
+            "Resource": "arn:aws:bedrock:*:*:*",
+            "Effect": "Allow"
+        }
+    ]
+}

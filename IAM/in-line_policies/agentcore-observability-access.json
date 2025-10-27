@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "application-signals:StartDiscovery",
+                "logs:PutLogEvents",
+                "logs:FilterLogEvents",
+                "logs:DescribeLogGroups",
+                "logs:PutDestination",
+                "logs:GetLogEvents",
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutResourcePolicy",
+                "logs:PutRetentionPolicy",
+                "logs:DescribeLogStreams",
+                "logs:DeleteLogGroup",
+                "logs:DeleteLogStream",
+                "xray:GetSamplingRules",
+                "xray:GetSamplingTargets",
+                "xray:GetSamplingTargets",
+                "xray:GetSamplingStatisticSummaries",
+                "xray:PutTelemetryRecords",
+                "xray:PutTraceSegments"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}

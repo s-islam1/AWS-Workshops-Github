@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "bedrock:CreateModelCustomizationJob",
+                "bedrock:StopModelCustomizationJob",
+                "bedrock:GetModelCustomizationJob",
+                "bedrock:ListModelCustomizationJobs"
+            ],
+            "Resource": "*",
+            "Effect": "Deny"
+        }
+    ]
+}

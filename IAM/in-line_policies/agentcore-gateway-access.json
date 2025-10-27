@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "bedrock-agentcore:CreateGateway",
+                "bedrock-agentcore:UpdateGateway",
+                "bedrock-agentcore:DeleteGateway",
+                "bedrock-agentcore:GetGateway",
+                "bedrock-agentcore:ListGateways",
+                "bedrock-agentcore:CreateGatewayTarget",
+                "bedrock-agentcore:UpdateGatewayTarget",
+                "bedrock-agentcore:DeleteGatewayTarget",
+                "bedrock-agentcore:GetGatewayTarget",
+                "bedrock-agentcore:ListGatewayTargets",
+                "bedrock-agentcore:DeleteWorkloadIdentity",
+                "bedrock-agentcore:CreateApiKeyCredentialProvider",
+                "bedrock-agentcore:CreateTokenVault",
+                "bedrock-agentcore:SynchronizeGatewayTargets",
+                "bedrock-agentcore:GetGateway",
+                "bedrock-agentcore:*"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}
