@@ -67,10 +67,7 @@ Launch it and confirm it shows **Running**.
 Run in **PowerShell** or **Command Prompt**:
 
 ```bash
-docker run -d -p 3000:8080 ^
-  -e OLLAMA_BASE_URL=http://host.docker.internal:11434 ^
-  -e ENABLE_ADMIN=true ^
-  --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -e ENABLE_ADMIN=true --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) → create a local account.
@@ -88,11 +85,7 @@ Pick **gemma3:1b** as your default model.
 > ```bash
 > docker stop open-webui
 > docker rm open-webui
-> docker run -d -p 3000:8080 ^
->   -e OLLAMA_BASE_URL=http://host.docker.internal:11434 ^
->   -e ENABLE_ADMIN=true ^
->   -v %USERPROFILE%\openwebui_data:/app/backend/data ^
->   --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+> docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -e ENABLE_ADMIN=true -v %USERPROFILE%\openwebui_data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 > ```
 
 ---
