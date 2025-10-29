@@ -74,13 +74,9 @@ After running the prompts, compare:
 - How would you refine it further?
 
 ---
-```
-
----
 
 ### 🧠 `2-practice.md`
 
-```markdown
 # Prompt Engineering Lab - Practice
 
 Now that you understand the core types of prompts, let’s put your skills to practice.
@@ -151,13 +147,9 @@ This technique makes the model simulate **real-world job roles**, useful for tra
 - What patterns seem most effective for professional communication?
 
 ---
-```
-
----
 
 ### 🔍 `3-evaluation.md`
 
-```markdown
 # Prompt Engineering - Evaluation and Iteration
 
 Now it’s time to **evaluate** how effective your prompts are.
@@ -222,13 +214,9 @@ Re-test and re-score your prompt.
 This **iteration cycle** is the heart of *prompt engineering* — small design tweaks yield big performance improvements.
 
 ---
-```
-
----
 
 ### ⚙️ `4-advanced.md`
 
-````markdown
 # Prompt Engineering - Advanced Techniques
 
 Welcome to the advanced lab!  
@@ -242,7 +230,7 @@ You can use placeholders to make reusable prompts.
 
 ```text
 Explain {topic} in {words} words for {audience}.
-````
+```
 
 **Example:**
 
